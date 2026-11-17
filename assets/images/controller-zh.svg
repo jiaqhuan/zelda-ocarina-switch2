@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-label="《时之笛》Switch 2：音符键与音高修饰">
+  <title>《时之笛》Switch 2：音符键与音高修饰</title>
+  <rect width="880" height="600" rx="18" fill="#ffffff"/>
+  <text x="440" y="48" text-anchor="middle" font-size="22" font-weight="700" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">《时之笛》Switch 2：音符键与音高修饰</text>
+
+  <defs>
+    <g id="body">
+      <rect x="200" y="170" width="480" height="200" rx="70"/>
+      <rect x="190" y="270" width="130" height="230" rx="65"/>
+      <rect x="560" y="270" width="130" height="230" rx="65"/>
+    </g>
+  </defs>
+  <use href="#body" fill="#e5e7eb" stroke="#6b7280" stroke-width="6"/>
+  <use href="#body" fill="#e5e7eb" stroke="none"/>
+
+  
+  <rect x="210" y="125" width="130" height="38" rx="16" fill="#d97706"/>
+  <text x="275" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L · D4</text>
+  
+  <rect x="540" y="125" width="130" height="38" rx="16" fill="#059669"/>
+  <text x="605" y="150" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R · F4</text>
+
+  <!-- left stick (modifier) -->
+  <circle cx="275" cy="225" r="36" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <circle cx="275" cy="225" r="22" fill="#93c5fd" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="275" y="196" text-anchor="middle" font-size="13" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">▲</text>
+  <text x="275" y="261" text-anchor="middle" font-size="13" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">▼</text>
+
+  <!-- d-pad (modifier) -->
+  <g fill="#dbeafe" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round">
+    <rect x="334" y="282" width="22" height="66" rx="4"/>
+    <rect x="312" y="304" width="66" height="22" rx="4"/>
+  </g>
+  <rect x="335" y="305" width="20" height="20" fill="#dbeafe"/>
+  <text x="345" y="299" text-anchor="middle" font-size="11" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">▲</text>
+  <text x="345" y="343" text-anchor="middle" font-size="11" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">▼</text>
+
+  <!-- right stick (unused) -->
+  <circle cx="535" cy="315" r="30" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+  <circle cx="535" cy="315" r="19" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- face buttons -->
+  
+  <circle cx="605" cy="205" r="22" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+  <text x="605" y="204" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="605" y="218" text-anchor="middle" font-size="10" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D5</text>
+  
+  <circle cx="561" cy="249" r="22" fill="#9333ea" stroke="#fff" stroke-width="2"/>
+  <text x="561" y="248" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">Y</text>
+  <text x="561" y="262" text-anchor="middle" font-size="10" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">B4</text>
+  
+  <circle cx="649" cy="249" r="22" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+  <text x="649" y="248" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A</text>
+  <text x="649" y="262" text-anchor="middle" font-size="10" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A4</text>
+  <circle cx="605" cy="293" r="22" fill="#9ca3af" stroke="#fff" stroke-width="2"/>
+  <text x="605" y="299" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">B</text>
+
+  <!-- callouts -->
+  <g stroke="#1d4ed8" stroke-width="2" fill="none">
+    <line x1="182" y1="225" x2="236" y2="225"/>
+    <line x1="182" y1="330" x2="308" y2="316"/>
+  </g>
+  <text x="40" y="190" font-size="15" font-weight="700" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">左摇杆</text>
+  <text x="40" y="214" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">↑  升 2 个半音</text>
+  <text x="40" y="238" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">↓  降 2 个半音</text>
+  <text x="40" y="320" font-size="15" font-weight="700" fill="#1d4ed8" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">十字键</text>
+  <text x="40" y="344" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">↑  升 1 个半音</text>
+  <text x="40" y="368" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">↓  降 1 个半音</text>
+
+  <text x="440" y="420" text-anchor="middle" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">先按住修饰方向，</text>
+  <text x="440" y="440" text-anchor="middle" font-size="14" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">再按音符键。</text>
+  <text x="440" y="468" text-anchor="middle" font-size="14" font-weight="700" fill="#b45309" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">两者叠加：最多 ±3 个半音。</text>
+
+  <text x="240" y="565" text-anchor="end" font-size="14" font-weight="600" fill="#374151" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">自然音：</text>
+  <rect x="250" y="545" width="96" height="30" rx="15" fill="#d97706"/>
+  <text x="298" y="565" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L = D4</text>
+  <rect x="360" y="545" width="96" height="30" rx="15" fill="#059669"/>
+  <text x="408" y="565" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R = F4</text>
+  <rect x="470" y="545" width="96" height="30" rx="15" fill="#2563eb"/>
+  <text x="518" y="565" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A = A4</text>
+  <rect x="580" y="545" width="96" height="30" rx="15" fill="#9333ea"/>
+  <text x="628" y="565" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">Y = B4</text>
+  <rect x="690" y="545" width="96" height="30" rx="15" fill="#dc2626"/>
+  <text x="738" y="565" text-anchor="middle" font-size="14" font-weight="700" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X = D5</text>
+</svg>

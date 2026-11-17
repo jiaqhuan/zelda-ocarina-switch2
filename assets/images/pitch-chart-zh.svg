@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 300" role="img" aria-label="全部 19 个音（B3–F5）——每个音的最简输入">
+  <title>全部 19 个音（B3–F5）——每个音的最简输入</title>
+  <rect width="880" height="300" rx="18" fill="#ffffff"/>
+  <text x="440" y="48" text-anchor="middle" font-size="20" font-weight="700" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">全部 19 个音（B3–F5）——每个音的最简输入</text>
+  <text x="440" y="74" text-anchor="middle" font-size="12" fill="#6b7280" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">按键 · 半音偏移 · 修饰操作</text>
+  
+  <text x="44" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">B3</text>
+  <rect x="24" y="112" width="40" height="118" rx="8" fill="#d97706" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="44" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L</text>
+  <text x="44" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−3</text>
+  <text x="44" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↓S↓</text>
+  <text x="88" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">C4</text>
+  <rect x="68" y="112" width="40" height="118" rx="8" fill="#d97706" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="88" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L</text>
+  <text x="88" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−2</text>
+  <text x="88" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">S↓</text>
+  <text x="132" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">C♯4</text>
+  <rect x="112" y="112" width="40" height="118" rx="8" fill="#d97706" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="132" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L</text>
+  <text x="132" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−1</text>
+  <text x="132" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↓</text>
+  <text x="176" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D4</text>
+  <rect x="156" y="112" width="40" height="118" rx="8" fill="#d97706" fill-opacity="0.95" stroke="#111827" stroke-width="3"/>
+  <text x="176" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L</text>
+  <text x="176" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">0</text>
+  <text x="176" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif"></text>
+  <text x="220" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D♯4</text>
+  <rect x="200" y="112" width="40" height="118" rx="8" fill="#d97706" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="220" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">L</text>
+  <text x="220" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+1</text>
+  <text x="220" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑</text>
+  <text x="264" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">E4</text>
+  <rect x="244" y="112" width="40" height="118" rx="8" fill="#059669" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="264" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R</text>
+  <text x="264" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−1</text>
+  <text x="264" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↓</text>
+  <text x="308" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">F4</text>
+  <rect x="288" y="112" width="40" height="118" rx="8" fill="#059669" fill-opacity="0.95" stroke="#111827" stroke-width="3"/>
+  <text x="308" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R</text>
+  <text x="308" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">0</text>
+  <text x="308" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif"></text>
+  <text x="352" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">F♯4</text>
+  <rect x="332" y="112" width="40" height="118" rx="8" fill="#059669" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="352" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R</text>
+  <text x="352" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+1</text>
+  <text x="352" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑</text>
+  <text x="396" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">G4</text>
+  <rect x="376" y="112" width="40" height="118" rx="8" fill="#059669" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="396" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">R</text>
+  <text x="396" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+2</text>
+  <text x="396" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">S↑</text>
+  <text x="440" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">G♯4</text>
+  <rect x="420" y="112" width="40" height="118" rx="8" fill="#2563eb" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="440" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A</text>
+  <text x="440" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−1</text>
+  <text x="440" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↓</text>
+  <text x="484" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A4</text>
+  <rect x="464" y="112" width="40" height="118" rx="8" fill="#2563eb" fill-opacity="0.95" stroke="#111827" stroke-width="3"/>
+  <text x="484" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A</text>
+  <text x="484" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">0</text>
+  <text x="484" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif"></text>
+  <text x="528" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A♯4</text>
+  <rect x="508" y="112" width="40" height="118" rx="8" fill="#2563eb" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="528" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">A</text>
+  <text x="528" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+1</text>
+  <text x="528" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑</text>
+  <text x="572" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">B4</text>
+  <rect x="552" y="112" width="40" height="118" rx="8" fill="#9333ea" fill-opacity="0.95" stroke="#111827" stroke-width="3"/>
+  <text x="572" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">Y</text>
+  <text x="572" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">0</text>
+  <text x="572" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif"></text>
+  <text x="616" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">C5</text>
+  <rect x="596" y="112" width="40" height="118" rx="8" fill="#9333ea" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="616" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">Y</text>
+  <text x="616" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+1</text>
+  <text x="616" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑</text>
+  <text x="660" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">C♯5</text>
+  <rect x="640" y="112" width="40" height="118" rx="8" fill="#dc2626" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="660" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="660" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">−1</text>
+  <text x="660" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↓</text>
+  <text x="704" y="98" text-anchor="middle" font-size="15" font-weight="800" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D5</text>
+  <rect x="684" y="112" width="40" height="118" rx="8" fill="#dc2626" fill-opacity="0.95" stroke="#111827" stroke-width="3"/>
+  <text x="704" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="704" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">0</text>
+  <text x="704" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif"></text>
+  <text x="748" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D♯5</text>
+  <rect x="728" y="112" width="40" height="118" rx="8" fill="#dc2626" fill-opacity="0.55" stroke="none" stroke-width="3"/>
+  <text x="748" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="748" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+1</text>
+  <text x="748" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑</text>
+  <text x="792" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">E5</text>
+  <rect x="772" y="112" width="40" height="118" rx="8" fill="#dc2626" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="792" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="792" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+2</text>
+  <text x="792" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">S↑</text>
+  <text x="836" y="100" text-anchor="middle" font-size="13" font-weight="500" fill="#111827" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">F5</text>
+  <rect x="816" y="112" width="40" height="118" rx="8" fill="#dc2626" fill-opacity="0.95" stroke="none" stroke-width="3"/>
+  <text x="836" y="152" text-anchor="middle" font-size="22" font-weight="800" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">X</text>
+  <text x="836" y="180" text-anchor="middle" font-size="15" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">+3</text>
+  <text x="836" y="210" text-anchor="middle" font-size="12" font-weight="600" fill="#fff" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D↑S↑</text>
+  <text x="440" y="270" text-anchor="middle" font-size="12.5" fill="#374151" font-family="'Segoe UI','Microsoft YaHei','PingFang SC',system-ui,sans-serif">D = 十字键 ↑/↓（±1）  ·  S = 左摇杆 ↑/↓（±2）  ·  粗框 = 自然音（游戏识别歌曲只认这 5 个）</text>
+</svg>
