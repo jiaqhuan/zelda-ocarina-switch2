@@ -41,6 +41,7 @@ Switch 2 版《时之笛》的陶笛只有 **5 个音符键**，却能演奏 **B
 ```bash
 node bin/score-to-ns2.mjs "E5 D5 C5 B4 | A4 G4" --lang zh
 node bin/score-to-ns2.mjs "F#5 E5 D5 C#5" --auto      # 自动选最容易弹的移调
+node bin/score-to-ns2.mjs --image score.png --auto    # 从图片读取音符（需要视觉 API 密钥）
 npm test
 ```
 

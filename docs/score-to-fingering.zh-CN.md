@@ -93,7 +93,7 @@ describe             "R + 摇杆 ↑"（中/英）和简写 "R S↑"
 
 - **音乐上的选调**：`auto` 只看输入代价，短乐句可能选出带临时升降号的移调（例如 `E5 D5 C5 B4 A4 G4` 移 −2 会出现 A♯4 和 F4）。以后可以加一个尽量保持原调性格的选项。`n- **节奏和调号**：输入只是音符列表，升降号要写在每个音上。
 - **手指移动的优化**：每个音单独选最简输入。更聪明的做法是考虑上一个音，比如 `E5 → D5 → C5` 只用摇杆在 `X` 键上完成。
-- **其他输入格式**：简谱、ABC、MusicXML、MIDI。
+- **其他输入格式**：简谱、ABC、MusicXML、MIDI。（图片已支持，见第 9 节。）
 - **网页界面**：在浏览器里直接运行这个模块。
 
 ## 8. 用法
@@ -110,3 +110,35 @@ const { shift, events } = convert('E5 D5 C5', { auto: true });
 ```
 
 用 `npm test` 运行测试（Node.js 18+，无依赖）。
+
+## 9. 图片输入（视觉 API）
+
+`--image` 读取乐谱图片，让视觉模型把它转写成上面的文本格式，再走正常的转换流程。代码：[`src/vision.mjs`](../src/vision.mjs)。
+
+```
+图片 ──► 视觉 API ──► "E5 D5 C5 B4 | A4 G4" ──► tokenize / convert（第 4–5 节）
+              ▲                                      │
+        固定提示词：只读最上面一行谱、        先打印出来，方便你
+        升降号写明、读不出的音写 ?            对照图片检查
+```
+
+```bash
+export OCARINA_VISION_API_KEY=...            # 不要提交到仓库
+node bin/score-to-ns2.mjs --image score.png --auto
+node bin/score-to-ns2.mjs --image score.png --notes-only   # 只打印识别出的音符
+```
+
+| 设置 | 默认值 |
+| --- | --- |
+| `OCARINA_VISION_API_KEY` | 没设置时用 `OPENAI_API_KEY` |
+| `OCARINA_VISION_BASE_URL` | `https://api.openai.com/v1`（任何支持图片输入、兼容 OpenAI chat-completions 的接口） |
+| `OCARINA_VISION_MODEL` | `gpt-4o` |
+
+注意：
+
+- **识别是最薄弱的一环。** 通用视觉模型有时会读错调号、升降号和八度。识别出的音符总会先打印出来再给指法（输出到 stderr，所以 `--json` 的输出不受影响）。请先核对；有错就改好文本，不带 `--image` 重新运行。
+- 提示词要求把升降号写明，读不出的音写 `?`。出现 `?` 时程序会停下并显示识别结果，不会瞎猜。
+- 图片会发送给你配置的 API，不能分享给该服务商的图片不要用。
+- 只读取最上面一行谱的旋律，节奏、和弦、歌词都会忽略。
+- 测试里的 HTTP 调用是模拟的，不需要密钥和网络。
+- 以后想要更高的准确率，可以用专门的光学乐谱识别引擎（例如输出 MusicXML 的 Audiveris）代替视觉模型。音符变成文本之后，后面的流程不变。

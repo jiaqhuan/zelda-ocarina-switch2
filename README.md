@@ -41,6 +41,7 @@ Turn a melody written as note names into Switch 2 ocarina inputs, optionally tra
 ```bash
 node bin/score-to-ns2.mjs "E5 D5 C5 B4 | A4 G4"
 node bin/score-to-ns2.mjs "F#5 E5 D5 C#5" --auto      # pick the easiest transposition
+node bin/score-to-ns2.mjs --image score.png --auto    # read notes from an image (needs a vision API key)
 npm test
 ```
 

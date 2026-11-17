@@ -94,7 +94,7 @@ Kept out on purpose so the first version stays simple:
 - **Musical choice of key.** `auto` looks only at input cost, so for a short phrase it can pick a transposition with accidentals (e.g. −2 on `E5 D5 C5 B4 A4 G4` lands on A♯4 and F4). A future option could prefer shifts that keep the original key's character.
 - **Rhythm and key signatures.** Input is a plain note list, and accidentals must be written on every note.
 - **Hand-movement awareness.** Each note picks its own cheapest input. A smarter pass could consider the previous note, for example the `E5 → D5 → C5` run on `X` using only the stick.
-- **Other input formats:** numbered notation (简谱), ABC, MusicXML, MIDI.
+- **Other input formats:** numbered notation (简谱), ABC, MusicXML, MIDI. (Images are supported, see section 9.)
 - **A web UI** that runs this module in the browser.
 
 ## 8. Usage
@@ -111,3 +111,35 @@ const { shift, events } = convert('E5 D5 C5', { auto: true });
 ```
 
 Run the tests with `npm test` (Node.js 18+, no dependencies).
+
+## 9. Image input (vision API)
+
+`--image` reads a sheet-music image, asks a vision model to transcribe it into the text format above, then runs the normal pipeline. Code: [`src/vision.mjs`](../src/vision.mjs).
+
+```
+image ──► vision API ──► "E5 D5 C5 B4 | A4 G4" ──► tokenize / convert (sections 4–5)
+              ▲                                        │
+        fixed prompt: top staff only,             printed first so you can
+        explicit accidentals, ? if unreadable     check it against the image
+```
+
+```bash
+export OCARINA_VISION_API_KEY=...            # never commit this
+node bin/score-to-ns2.mjs --image score.png --auto
+node bin/score-to-ns2.mjs --image score.png --notes-only   # just print the recognized notes
+```
+
+| Setting | Default |
+| --- | --- |
+| `OCARINA_VISION_API_KEY` | falls back to `OPENAI_API_KEY` |
+| `OCARINA_VISION_BASE_URL` | `https://api.openai.com/v1` (any OpenAI-compatible chat-completions endpoint that accepts images) |
+| `OCARINA_VISION_MODEL` | `gpt-4o` |
+
+Things to know:
+
+- **Recognition is the weak link.** General vision models misread key signatures, accidentals and octaves from time to time. The recognized notes are always printed before the fingerings (to stderr, so `--json` output stays clean). Check them, and if something is wrong, fix the text and run again without `--image`.
+- The prompt asks for explicit accidentals and for `?` where a note can't be read. A `?` makes the run stop and show the recognized text, instead of guessing.
+- The image is sent to whichever API you configure. Don't use it for images you can't share with that provider.
+- Only the top staff's melody is read. Rhythm, chords and lyrics are ignored.
+- The tests use a mocked HTTP call, so they never need a key or the network.
+- For higher accuracy later, a dedicated optical music recognition engine (for example Audiveris, which outputs MusicXML) could replace the vision model. The rest of the pipeline stays the same once the notes are in text form.
