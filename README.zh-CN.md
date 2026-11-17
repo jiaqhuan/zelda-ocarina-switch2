@@ -32,6 +32,19 @@ Switch 2 版《时之笛》的陶笛只有 **5 个音符键**，却能演奏 **B
 | [Technical analysis (English)](docs/technical-analysis.md) | 英文版 |
 | [`assets/images/`](assets/images) | 中英文图示，提供 SVG 和 2 倍 PNG（可直接发小红书） |
 | [`tools/generate-diagrams.mjs`](tools/generate-diagrams.mjs) | 生成全部图示的脚本 |
+| [乐谱 → 指法转换器](docs/score-to-fingering.zh-CN.md) | 转换器的设计说明，代码在 [`src/`](src/ocarina.mjs)，命令行在 [`bin/`](bin/score-to-ns2.mjs) |
+
+## 乐谱 → 指法转换器
+
+把用音名写的旋律转成 Switch 2 陶笛的按键输入，还能自动移调到可演奏的音域（Node.js 18+，无依赖）：
+
+```bash
+node bin/score-to-ns2.mjs "E5 D5 C5 B4 | A4 G4" --lang zh
+node bin/score-to-ns2.mjs "F#5 E5 D5 C#5" --auto      # 自动选最容易弹的移调
+npm test
+```
+
+原理见 [docs/score-to-fingering.zh-CN.md](docs/score-to-fingering.zh-CN.md)。
 
 ## 重新生成图示
 

@@ -1,0 +1,21 @@
+{
+  "name": "zelda-ocarina-switch2",
+  "version": "0.1.0",
+  "description": "Ocarina of Time (Switch 2) ocarina guide and score-to-fingering converter",
+  "type": "module",
+  "bin": {
+    "score-to-ns2": "bin/score-to-ns2.mjs"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "diagrams": "node tools/generate-diagrams.mjs assets/images"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaqhuan/zelda-ocarina-switch2.git"
+  },
+  "license": "MIT"
+}

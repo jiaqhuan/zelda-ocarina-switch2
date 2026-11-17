@@ -13,6 +13,7 @@ Thanks for helping make this guide more accurate! / 欢迎帮忙让这份指南�
 1. Open an issue using the *Fingering correction* template, or fork the repo and open a pull request.
 2. Keep English and Chinese docs in sync: [`docs/technical-analysis.md`](docs/technical-analysis.md) and [`docs/technical-analysis.zh-CN.md`](docs/technical-analysis.zh-CN.md).
 3. Don't edit the files in `assets/images/` by hand — change [`tools/generate-diagrams.mjs`](tools/generate-diagrams.mjs) and regenerate (`node tools/generate-diagrams.mjs assets/images`), then re-render the PNGs.
+4. If you change the fingering logic in [`src/ocarina.mjs`](src/ocarina.mjs), run `npm test`. One test checks the converter against the published fingering chart, so update the chart and the test together.
 
 ## Content guidelines
 

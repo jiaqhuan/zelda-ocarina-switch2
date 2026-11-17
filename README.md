@@ -32,6 +32,19 @@ The ocarina in *The Legend of Zelda: Ocarina of Time* on Nintendo Switch 2 has o
 | [技术分析（简体中文）](docs/technical-analysis.zh-CN.md) | 中文版 |
 | [`assets/images/`](assets/images) | Diagrams in SVG and 2× PNG, in English and Chinese |
 | [`tools/generate-diagrams.mjs`](tools/generate-diagrams.mjs) | Script that generates every diagram |
+| [Score → fingering converter](docs/score-to-fingering.md) | How the converter works (design notes), with code in [`src/`](src/ocarina.mjs) and a CLI in [`bin/`](bin/score-to-ns2.mjs) |
+
+## Score → fingering converter
+
+Turn a melody written as note names into Switch 2 ocarina inputs, optionally transposing it into the playable range (Node.js 18+, no dependencies):
+
+```bash
+node bin/score-to-ns2.mjs "E5 D5 C5 B4 | A4 G4"
+node bin/score-to-ns2.mjs "F#5 E5 D5 C#5" --auto      # pick the easiest transposition
+npm test
+```
+
+How it works: [docs/score-to-fingering.md](docs/score-to-fingering.md).
 
 ## Regenerating the diagrams
 
